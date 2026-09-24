@@ -47,11 +47,6 @@ return (
     </div>
   </section>
 );
-
-
-
-
-
 };
 
 export default Banner;
