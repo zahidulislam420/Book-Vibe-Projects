@@ -1,3 +1,4 @@
+import ReadButton from '@/app/components/BookDetails/ReadButton';
 import { IBook } from '@/types/books.types';
 import Image from 'next/image';
 import React from 'react';
@@ -125,8 +126,9 @@ const BookDetailsPage = async ({ params }: IBookDetailsPageProps) => {
 
         {/* Button */}
         <div className="card-actions justify-end mt-6">
+          <ReadButton book={book} />
           <button className="btn btn-primary px-8">
-            Watch
+            Wishlist
           </button>
         </div>
 
